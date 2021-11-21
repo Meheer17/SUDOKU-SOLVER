@@ -1,4 +1,4 @@
-class SudokuSolver {
+ class SudokuSolver {
 
     validate(puzzleString) { }
 
