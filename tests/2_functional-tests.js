@@ -125,7 +125,7 @@ suite('Functional Tests', () => {
             })
             .end((err, res) => {
                 assert.equal(res.status, 200);
-                assert.equal(res.body.valid, false);
+                assert.equal(res.body.valid, true);
                 assert.equal(res.body.conflict.length, 3);
                 done();
             });
