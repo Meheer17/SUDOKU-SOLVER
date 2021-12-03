@@ -1,2 +1,2 @@
-gilanguage = "nodejs"
+language = "nodejs"
 run = "npm run dev"
